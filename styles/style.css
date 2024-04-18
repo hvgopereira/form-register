@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    background: var(--dark-prin);
+}
+
+:root{
+    --dark-prin: #201b2c;
+    --dark-seg: #2f2841;
+    --dark-terc: #514869;
+    --dark-dark: #191522;
+    --purple-prin: rgb(234, 0, 255);
+}
+
+header{
+    background: #191522;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+header > h1{
+    margin-top: 1rem;
+}
+
+.main-login-img{
+    width: 35vw;
+}
+
+.main-login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    margin-left: 10rem;
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > span{
+    color: var(--purple-prin);
+    font-size: 3vw;
+    font-family: "Nunito", sans-serif;
+}
+
+.right-login{
+    width: 50vw;
+    margin-left: 13rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+form > label{
+    padding: 5px;
+}
+
+.card-login{
+    width: 60%;
+    border-radius: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2.5rem;
+
+    background: var(--dark-seg);
+
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.534);
+}
+
+.card-login > hr{
+    border-color: var(--purple-prin);
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.card-login > h4{
+    color: var(--purple-prin);
+    /* margin-bottom: 2rem; */
+    
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+
+select{
+    background: var(--dark-terc);
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.rg{
+    cursor: pointer;
+    width: 100%;
+
+    border: none;
+}
+
+.sexo{
+    transition: all 0.5;
+}
+
+.sexo:hover{
+    font-size: 20px;
+}
+
+.sexo option{
+    transition: all 0.5;
+    color: white;
+    background: var(--dark-terc);
+}
+
+.sexo option:hover{
+    font-size: 20px;
+}
+
+form > option{
+    transition: all 0.4s;
+}
+
+form > input{
+    background: var(--dark-terc);
+
+    width: 100%;
+    padding: 15px;
+    
+    border: none;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+form > input:hover{
+    font-size: 20px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(100%);
+}
+
+.obs{
+    width: 100%;
+    padding: 5px;
+    color: rgba(207, 202, 202, 0.781);
+}
+
+
+.checkbox-container input[type="checkbox"]:not(:checked) + .checkmark::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--purple-prin);
+    border-radius: 3px;
+}
+
+.checkbox-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+    color: var(--purple-prin);
+    margin: 5px;
+    transition: all 0.5s;
+}
+
+.checkbox-container .checkmark {
+    display: inline-block;
+    border-radius: 3px;
+}
+
+button{
+    width: 100%;
+    cursor: pointer;
+
+    padding: 16px 0px;
+    margin: 25px;
+
+    border: none;
+    border-radius: 20px;
+    outline: none;
+
+    letter-spacing: 1px;
+    background: var(--purple-prin);
+
+    box-shadow: 0px 10px 40px -12px rgb(255, 0, 255);
+    transition: all 0.6s;
+    /* box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.479); */
+}
+
+button:hover{
+    background: white;
+    color: var(--purple-prin);
+    font-size: 25px;
+    font-weight: 800;
+
+    box-shadow: 0px 10px 40px -12px rgb(255, 255, 255);
+}
+
+footer{
+    background: var(--dark-dark);
+    text-align: center;
+    padding: 20px;
+}
+/* .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 10rem;
+    margin-top: 5rem;
+}
+
+.container-img{
+    max-width: 30rem;
+} */

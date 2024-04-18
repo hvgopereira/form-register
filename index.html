@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+        <h2>Aula 05-04</h2>
+    </header>
+
+    <section>
+        <main>
+            <div class="main-login">
+                <aside class="left-login">
+                    <span>Se Registre<br>E entre para nosso time.</span>
+                    <img class="main-login-img" src="assets/leftimg-animate.svg" alt="">
+                </aside>
+                             
+    <article class="right-login">
+        <div class="card-login">
+            <h4>Registra-se</h4>
+            <hr>
+                        <form class="textfield" method="get" action="">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" placeholder="Nome">
+
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+
+                            <label for="password">Senha</label>
+                            <input type="password" name="password" id="password" placeholder="Senha">
+
+                            <label for="date">Nascimento</label>
+                            <input type="date" name="date" id="date" max="31-12-2024">
+
+                            <label for="sexo">Sexo</label>
+                            <select class="sexo" name="sexo" id="sexo">
+                                <option class="sexo" value="undefined">Selecione</option>
+                                <option class="sexo" value="masc">Masculino</option>
+                                <option class="sexo" value="fem">Feminino</option>
+                            </select>
+
+                            <label class="rg" for="img">RG</label>
+                            <input class="rg" type="file" name="img" id="img">
+                            <span class="obs" id="obs">(Frente e verso) Formatos suportados: JPG, PNG. Tamanho máximo: 5MB.</span>
+
+                            <label class = checkbox-container for="check">
+                                <input class="checkbox" type="checkbox" name="check" id="check">
+                                <span class="checkmark">Desejo receber ofertas e novidades por e-mail</span>
+
+                            <button>Enviar</button>
+                            </label>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </section>
+
+    <footer>© [2024] [Site Formulário]. Todos os direitos reservados.<br>Desenvolvido por Hugão</footer>
+</body>
+</html>
