@@ -4,6 +4,8 @@ https://github.com/hvgopereira/form-register/assets/162385532/2a858068-a0dc-4bf4
 
 🔴 <strong>NÃO É RESPONSIVO </strong>🔴
 
+<img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
+
 Olá pessoal! 👋, meu projeto para aula da faculdade, dia 05/04 - Um formulário de registro desenvolvido com HTML e CSS.
 
 Este projeto foi uma oportunidade para aprimorar minhas habilidades de design e desenvolvimento web, focando na criação de um formulário que seja tanto visualmente atraente quanto funcional em diferentes dispositivos.
