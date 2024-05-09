@@ -17,3 +17,9 @@ Ao utilizar HTML semântico e estilos CSS, consegui garantir a acessibilidade e 
 <hr>
 
 <strong>Site que fiz o personagem ao lado esquerdo (com animação feita também no site): https://www.storyset.com</strong>
+
+<section align="center" style="display: inline-block; ">
+  <strong> Usado: </strong>
+  <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</section>
