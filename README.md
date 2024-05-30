@@ -1,6 +1,13 @@
 # Formulário de Registro - Faculdade
 
-<h3 align="center">! Um dos meus primeiros projetos de todos !</h3>
+<h3 align="center">! Um dos meus primeiros projetos de todos e meu primeiro cadastro !</h3>
+
+ <section align="center">
+  <a href="https://x.com/hvgopereira"><img src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter&logoColor=white"></img></a>
+  <a href="https://discord.gg/gvzwyFMqNx" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+ </section>
+
+<br>
 
 https://github.com/hvgopereira/form-register/assets/162385532/2a858068-a0dc-4bf4-894f-8ac0fb07ae0e
 
