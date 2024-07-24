@@ -22,7 +22,6 @@ Este projeto foi uma oportunidade para aprimorar minhas habilidades de design e 
 
 Ao utilizar HTML semântico e estilos CSS, consegui garantir a acessibilidade e adaptabilidade do formulário em diversos contextos de uso.
 
-
 <br>
 <hr>
 
